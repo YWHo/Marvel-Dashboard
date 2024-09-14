@@ -1,1 +1,1 @@
-export { mapToInfoList } from './helpers';
+export { getImageURLFromThumbnail, mapToInfoList } from './helpers';

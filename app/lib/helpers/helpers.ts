@@ -15,15 +15,7 @@ export function mapToInfoList(items: any[]): InfoList {
     ) {
       description = parseHtml(item.textObjects?.[0]?.text) as string;
     }
-    let imageURL = "";
-    if (item.thumbnail && typeof (item.thumbnail == "object")) {
-      if (
-        typeof item.thumbnail.path == "string" &&
-        typeof item.thumbnail.extension == "string"
-      ) {
-        imageURL = `${item.thumbnail.path}.${item.thumbnail.extension}`;
-      }
-    }
+    let imageURL = getImageURLFromThumbnail(item.thumbnail);
 
     return {
       id: item.id,
@@ -32,4 +24,21 @@ export function mapToInfoList(items: any[]): InfoList {
       imageURL: imageURL,
     };
   });
+}
+
+type ThumbnailProps = {
+  path?: string;
+  extension?:string
+} | null;
+
+export function getImageURLFromThumbnail(thumbnail: ThumbnailProps) {
+  if (thumbnail && typeof (thumbnail) == "object") {
+    if (
+      typeof thumbnail.path == "string" &&
+      typeof thumbnail.extension == "string"
+    ) {
+      return `${thumbnail.path}.${thumbnail.extension}`;
+    }
+  }
+  return "";
 }

@@ -7,11 +7,11 @@ function LandingPage() {
     <div className="min-h-screen flex flex-col items-center justify-center text-white">
       <div className="mb-10">
         <Image
-          src="/images/landing-image.webp" // Replace with your image path
+          src="/images/landing-image.webp"
           alt="Centered Landing Image"
           width={350}
           height={350}
-          className="object-contain" // Ensures the image scales down within the bounds
+          className="object-contain rounded" // Ensures the image scales down within the bounds
         />
       </div>
       <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">Welcome to the Marvel Heroes Portal!</h1>
