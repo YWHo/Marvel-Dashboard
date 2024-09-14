@@ -15,7 +15,7 @@ export function mapToInfoList(items: any[]): InfoList {
     ) {
       description = parseHtml(item.textObjects?.[0]?.text) as string;
     }
-    let imageURL = getImageURLFromThumbnail(item.thumbnail);
+    const imageURL = getImageURLFromThumbnail(item.thumbnail);
 
     return {
       id: item.id,
