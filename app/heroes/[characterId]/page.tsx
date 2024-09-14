@@ -1,5 +1,4 @@
 import React from "react";
-import parseHtml from "html-react-parser";
 import { InfoTable } from "@/app/components/InfoTable";
 import {
   marvelCharacterDetailById,

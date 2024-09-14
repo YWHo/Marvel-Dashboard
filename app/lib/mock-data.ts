@@ -213,15 +213,15 @@ export const marvelCharacterDetailById = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/74/3-d_man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/74/3-d_man?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/3-D_Man_(Chandler)?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/3-D_Man_(Chandler)?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011334/3-d_man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011334/3-d_man?",
         },
       ],
     },
@@ -443,15 +443,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/74/3-d_man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/74/3-d_man?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/3-D_Man_(Chandler)?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/3-D_Man_(Chandler)?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011334/3-d_man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011334/3-d_man?",
         },
       ],
     },
@@ -559,11 +559,11 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/76/a-bomb?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/76/a-bomb?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1017100/a-bomb_has?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1017100/a-bomb_has?",
         },
       ],
     },
@@ -872,15 +872,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/77/aim.?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/77/aim.?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/A.I.M.?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/A.I.M.?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1009144/aim.?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1009144/aim.?",
         },
       ],
     },
@@ -1096,11 +1096,11 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/2809/aaron_stack?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/2809/aaron_stack?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1010699/aaron_stack?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1010699/aaron_stack?",
         },
       ],
     },
@@ -1414,15 +1414,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/81/abomination?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/81/abomination?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Abomination?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Abomination?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1009146/abomination_emil_blonsky?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1009146/abomination_emil_blonsky?",
         },
       ],
     },
@@ -1501,11 +1501,11 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/81/abomination?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/81/abomination?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1016823/abomination_ultimate?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1016823/abomination_ultimate?",
         },
       ],
     },
@@ -1834,15 +1834,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/84/absorbing_man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/84/absorbing_man?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Absorbing_Man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Absorbing_Man?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1009148/absorbing_man?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1009148/absorbing_man?",
         },
       ],
     },
@@ -1979,15 +1979,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/85/abyss?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/85/abyss?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Abyss_(alien)?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Abyss_(alien)?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1009149/abyss?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1009149/abyss?",
         },
       ],
     },
@@ -2074,15 +2074,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/85/abyss?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/85/abyss?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Abyss_(Age_of_Apocalypse)?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Abyss_(Age_of_Apocalypse)?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1010903/abyss_age_of_apocalypse?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1010903/abyss_age_of_apocalypse?",
         },
       ],
     },
@@ -2127,15 +2127,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/2902/adam_destine?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/2902/adam_destine?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Destine,_Adam?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Destine,_Adam?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011266/adam_destine?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011266/adam_destine?",
         },
       ],
     },
@@ -2477,15 +2477,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/2854/adam_warlock?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/2854/adam_warlock?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Warlock,_Adam?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Warlock,_Adam?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1010354/adam_warlock?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1010354/adam_warlock?",
         },
       ],
     },
@@ -2530,15 +2530,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/95/aegis?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/95/aegis?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Aegis_%28Trey_Rollins%29?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Aegis_%28Trey_Rollins%29?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1010846/aegis_trey_rollins?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1010846/aegis_trey_rollins?",
         },
       ],
     },
@@ -2786,11 +2786,11 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/characters/1017851/aero_aero?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1017851/aero_aero?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1017851/aero_aero?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1017851/aero_aero?",
         },
       ],
     },
@@ -3074,15 +3074,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/characters/1012717/agatha_harkness?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1012717/agatha_harkness?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Agatha%20Harkness?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Agatha%20Harkness?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1012717/agatha_harkness?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1012717/agatha_harkness?",
         },
       ],
     },
@@ -3346,15 +3346,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/100/agent_brand?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/100/agent_brand?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Agent_Brand?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Agent_Brand?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011297/agent_brand?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011297/agent_brand?",
         },
       ],
     },
@@ -3587,15 +3587,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/101/agent_x?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/101/agent_x?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Agent_X_(Nijo)?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Agent_X_(Nijo)?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011031/agent_x_nijo?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011031/agent_x_nijo?",
         },
       ],
     },
@@ -3863,15 +3863,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/102/agent_zero?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/102/agent_zero?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Agent_Zero?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Agent_Zero?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1009150/agent_zero?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1009150/agent_zero?",
         },
       ],
     },
@@ -4156,15 +4156,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/characters/1011198/agents_of_atlas?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011198/agents_of_atlas?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Agents_of_Atlas?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Agents_of_Atlas?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011198/agents_of_atlas?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011198/agents_of_atlas?",
         },
       ],
     },
@@ -4209,15 +4209,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/105/aginar?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/105/aginar?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Aginar?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Aginar?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011175/aginar?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011175/aginar?",
         },
       ],
     },
@@ -4313,15 +4313,15 @@ export const marvelCharacters = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/characters/109/air-walker?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/characters/109/air-walker?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Air-Walker_(Gabriel_Lan)?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Air-Walker_(Gabriel_Lan)?",
         },
         {
           type: "comiclink",
-          url: "http://marvel.com/comics/characters/1011136/air-walker_gabriel_lan?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/characters/1011136/air-walker_gabriel_lan?",
         },
       ],
     },
@@ -4365,19 +4365,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/21975/avengers_the_initiative_2007_17?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/21975/avengers_the_initiative_2007_17?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-The-Initiative-17/digital-comic/10721?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Avengers-The-Initiative-17/digital-comic/10721?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=10721&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=10721&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/10721?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/10721?",
         },
       ],
       series: {
@@ -4597,7 +4597,7 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/22300/avengers_the_initiative_2007_18_zombie_variant/zombie_variant?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/22300/avengers_the_initiative_2007_18_zombie_variant/zombie_variant?",
         },
       ],
       series: {
@@ -4800,19 +4800,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/21366/avengers_the_initiative_2007_14?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/21366/avengers_the_initiative_2007_14?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-The-Initiative-14/digital-comic/10715?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Avengers-The-Initiative-14/digital-comic/10715?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=10715&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=10715&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/10715?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/10715?",
         },
       ],
       series: {
@@ -5022,19 +5022,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/21741/avengers_the_initiative_2007_16?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/21741/avengers_the_initiative_2007_16?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-The-Initiative-16/digital-comic/10718?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Avengers-The-Initiative-16/digital-comic/10718?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=10718&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=10718&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/10718?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/10718?",
         },
       ],
       series: {
@@ -5249,19 +5249,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/22299/avengers_the_initiative_2007_18?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/22299/avengers_the_initiative_2007_18?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-The-Initiative-18/digital-comic/10948?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Avengers-The-Initiative-18/digital-comic/10948?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=10948&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=10948&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/10948?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/10948?",
         },
       ],
       series: {
@@ -5496,19 +5496,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/22506/avengers_the_initiative_2007_19?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/22506/avengers_the_initiative_2007_19?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-The-Initiative-19/digital-comic/10949?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Avengers-The-Initiative-19/digital-comic/10949?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=10949&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=10949&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/10949?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/10949?",
         },
       ],
       series: {
@@ -5713,7 +5713,7 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/24571/avengers_the_initiative_2007_14_spotlight_variant/spotlight_variant?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/24571/avengers_the_initiative_2007_14_spotlight_variant/spotlight_variant?",
         },
       ],
       series: {
@@ -5897,19 +5897,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/21546/avengers_the_initiative_2007_15?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/21546/avengers_the_initiative_2007_15?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-The-Initiative-15/digital-comic/10716?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Avengers-The-Initiative-15/digital-comic/10716?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=10716&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=10716&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/10716?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/10716?",
         },
       ],
       series: {
@@ -6108,19 +6108,19 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/8500/deadpool_1997_44?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/8500/deadpool_1997_44?",
         },
         {
           type: "purchase",
-          url: "http://comicstore.marvel.com/Deadpool-44/digital-comic/23291?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://comicstore.marvel.com/Deadpool-44/digital-comic/23291?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=23291&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=23291&",
         },
         {
           type: "inAppLink",
-          url: "https://applink.marvel.com/issue/23291?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "https://applink.marvel.com/issue/23291?",
         },
       ],
       series: {
@@ -6305,11 +6305,11 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/10223/marvel_premiere_1972_35?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/10223/marvel_premiere_1972_35?",
         },
         {
           type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=46568&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/digitalcomics/view.htm?iid=46568&",
         },
       ],
       series: {
@@ -6456,7 +6456,7 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/10225/marvel_premiere_1972_37?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/10225/marvel_premiere_1972_37?",
         },
       ],
       series: {
@@ -6589,7 +6589,7 @@ export const marvelComicsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/issue/10224/marvel_premiere_1972_36?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/issue/10224/marvel_premiere_1972_36?",
         },
       ],
       series: {
@@ -6710,3140 +6710,6 @@ export const marvelComicsByCharacterId = {
   ],
 };
 
-export const marvelComicById = {
-  offset: 0,
-  limit: 20,
-  total: 1,
-  count: 1,
-  results: [
-    {
-      id: 120197,
-      digitalId: 0,
-      title: "Avengers Assemble (2024) #3",
-      issueNumber: 3,
-      variantDescription: "",
-      description:
-        "She-Hulk, Wonder Man, Lightning and Lightspeed deploy to…rescue vampires? When a new iteration of the NIGHTSTALKERS attacks a community of civilian vampires formed in New York City after the events of BLOOD HUNT, the AVENG.E.R.S. must align to protect those who they once sought to defeat!",
-      modified: "2024-08-05T12:32:13-0400",
-      isbn: "",
-      upc: "759606210221000311",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120197",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120197/avengers_assemble_2024_3?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-11-20T00:00:00-0500",
-        },
-        {
-          type: "focDate",
-          date: "2024-10-14T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 3.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/66c721a116c68",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/66c721a116c68",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 8,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13250",
-            name: "Romulo Fajardo Jr.",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13604",
-            name: "Marcelo Ferreira",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12978",
-            name: "Roberto Poggi",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/758",
-            name: "Leinil Francis Yu",
-            role: "penciler (cover)",
-          },
-        ],
-        returned: 8,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261621",
-            name: "cover from Avengers Assemble (2024) #3",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261622",
-            name: "story from Avengers Assemble (2024) #3",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/events",
-        items: [],
-        returned: 0,
-      },
-    },
-  ],
-};
-
-export const marvelComics = {
-  offset: 0,
-  limit: 20,
-  total: 2315,
-  count: 20,
-  results: [
-    {
-      id: 120197,
-      digitalId: 0,
-      title: "Avengers Assemble (2024) #3",
-      issueNumber: 3,
-      variantDescription: "",
-      description:
-        "She-Hulk, Wonder Man, Lightning and Lightspeed deploy to…rescue vampires? When a new iteration of the NIGHTSTALKERS attacks a community of civilian vampires formed in New York City after the events of BLOOD HUNT, the AVENG.E.R.S. must align to protect those who they once sought to defeat!",
-      modified: "2024-08-05T12:32:13-0400",
-      isbn: "",
-      upc: "759606210221000311",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120197",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120197/avengers_assemble_2024_3?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-11-20T00:00:00-0500",
-        },
-        {
-          type: "focDate",
-          date: "2024-10-14T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 3.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/66c721a116c68",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/66c721a116c68",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 8,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13250",
-            name: "Romulo Fajardo Jr.",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13604",
-            name: "Marcelo Ferreira",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12978",
-            name: "Roberto Poggi",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/758",
-            name: "Leinil Francis Yu",
-            role: "penciler (cover)",
-          },
-        ],
-        returned: 8,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261621",
-            name: "cover from Avengers Assemble (2024) #3",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261622",
-            name: "story from Avengers Assemble (2024) #3",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120197/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 116175,
-      digitalId: 0,
-      title: "AVENGERS EPIC COLLECTION: SEASONS OF THE WITCH (Trade Paperback)",
-      issueNumber: 1,
-      variantDescription: "",
-      description:
-        "Collects Avengers (1963) #227-237 and Annual (1967) #12, Amazing Spider-Man Annual (1964) #16, Fantastic Four (1961) #256, Doctor Strange (1974) #60 and Hawkeye (1983) #1-4. The old order changeth once again! The Avengers welcome the powerful new Captain Marvel, Monica Rambeau, into their ranks - just in time to witness the trial of Hank Pym, one of their stalwart members! Then, Thanos' fun-loving brother Starfox joins the roster for an adventure to the Inhumans' refuge on the moon and an uncanny team-up with the Fantastic Four that will have lasting repercussions for the Vision! As the Scarlet Witch fears for her synthezoid husband, Doctor Strange seeks her aid on a search for the Darkhold! But will a cash-strapped Spider-Man find gainful employment as the newest Avenger? Super villains cause pandemonium at Project PEGASUS, and Hawkeye goes solo - but when Clint Barton meets Mockingbird, Cupid is the one firing all the arrows!",
-      modified: "2024-08-05T12:33:43-0400",
-      isbn: "978-1-302-96009-4",
-      upc: "",
-      diamondCode: "",
-      ean: "9781302 960094 54499",
-      issn: "",
-      format: "Trade Paperback",
-      pageCount: 496,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/116175",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/collection/116175/avengers_epic_collection_seasons_of_the_witch_trade_paperback?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/39615",
-        name: "AVENGERS EPIC COLLECTION: SEASONS OF THE WITCH (2024)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-11-13T00:00:00-0500",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-02T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 44.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/6/00/66c8c4a0a1923",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/6/00/66c8c4a0a1923",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 31,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/116175/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/3389",
-            name: "Ian Akin",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14030",
-            name: "Terry Austin",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1251",
-            name: "Brett Breeding",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/5823",
-            name: "Danilo Bulanadi",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1827",
-            name: "John Byrne",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/9985",
-            name: "Kim Demulder",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/3390",
-            name: "Brian Garvey",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/560",
-            name: "Rick Magyar",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1865",
-            name: "Diana Albers",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1887",
-            name: "Janice Chiang",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13445",
-            name: "Eliot R. Brown",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1394",
-            name: "Bob Budiansky",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/105",
-            name: "Sal Buscema",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1326",
-            name: "Dan Green",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/259",
-            name: "Mark Gruenwald",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/2697",
-            name: "Butch Guice",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/435",
-            name: "Al Milgrom",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1828",
-            name: "Carl Gafford",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/962",
-            name: "Stan Goldberg",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13769",
-            name: "Bill Mantlo",
-            role: "writer",
-          },
-        ],
-        returned: 20,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/116175/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/116175/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/253573",
-            name: "cover from AVENGERS EPIC COLLECTION: SEASONS OF THE WITCH TPB (2024) #1",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/253574",
-            name: "story from AVENGERS EPIC COLLECTION: SEASONS OF THE WITCH TPB (2024) #1",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/116175/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 119369,
-      digitalId: 0,
-      title: "Avengers (2023) #20",
-      issueNumber: 20,
-      variantDescription: "",
-      description:
-        "BLACK PANTHER: WAR JOURNAL! FREE THE PRISONERS! Black Panther stars in this issue as he journeys into the pocket dimension of Meridian Diadem! While the Avengers deal with Doctor Doom on the outside, T'Challa must rescue the prisoners trapped within the Living Prison…",
-      modified: "2024-08-05T12:28:57-0400",
-      isbn: "",
-      upc: "75960620426702011",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/119369",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/119369/avengers_2023_20?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/34716",
-        name: "Avengers (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-11-06T00:00:00-0500",
-        },
-        {
-          type: "focDate",
-          date: "2024-10-07T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 3.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/3/e0/66c7219e53e36",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/3/e0/66c7219e53e36",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 6,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119369/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13180",
-            name: "Federico Blee",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14354",
-            name: "Farid Karami",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13471",
-            name: "Jed Mackay",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12376",
-            name: "Wilson Moss",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/11912",
-            name: "Valerio Schiti",
-            role: "penciler (cover)",
-          },
-        ],
-        returned: 6,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119369/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119369/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/259962",
-            name: "cover from Avengers (2023) #20",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/259963",
-            name: "story from Avengers (2023) #20",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119369/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 121605,
-      digitalId: 0,
-      title: "Avengers United Infinity Comic (2023) #53",
-      issueNumber: 53,
-      variantDescription: "",
-      description: "",
-      modified: "2024-08-06T09:40:55-0400",
-      isbn: "",
-      upc: "75960620749705311",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/121605",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/121605/avengers_united_infinity_comic_2023_53?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/37864",
-        name: "Avengers United Infinity Comic (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-24T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-23T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/9/80/66d1cd82ce724",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/9/80/66d1cd82ce724",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121605/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12854",
-            name: "Paul Allor",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12644",
-            name: "Alan Robinson",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12974",
-            name: "Vc Joe Sabino",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13052",
-            name: "Israel Silva",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121605/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121605/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264439",
-            name: "cover from Avengers United Infinity Comic (2023) #53",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264440",
-            name: "story from Avengers United Infinity Comic (2023) #53",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121605/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 119368,
-      digitalId: 68898,
-      title: "Avengers (2023) #19",
-      issueNumber: 19,
-      variantDescription: "",
-      description:
-        "DOOM AGAINST EARTH'S MIGHTIEST HEROES! Doctor Doom puts the Avengers to the test! But what is the purpose of the Avengers? To prove why Doom's way is not the right way, the Avengers will have to face their greatest threat - their own dark pasts! Meanwhile, T'Challa embarks on a clandestine mission…",
-      modified: "2024-09-10T16:12:13-0400",
-      isbn: "",
-      upc: "75960620426701911",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/119368",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/119368/avengers_2023_19?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-19/digital-comic/68898?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68898&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/34716",
-        name: "Avengers (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-23T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-23T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-09-10T00:00:00-0400",
-        },
-        {
-          type: "digitalPurchaseDate",
-          date: "2024-09-10T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 3.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/9/30/66a3eda7b6126",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/9/30/66a3eda7b6126",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 6,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119368/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13180",
-            name: "Federico Blee",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14354",
-            name: "Farid Karami",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13471",
-            name: "Jed Mackay",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12376",
-            name: "Wilson Moss",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/11912",
-            name: "Valerio Schiti",
-            role: "penciler (cover)",
-          },
-        ],
-        returned: 6,
-      },
-      characters: {
-        available: 4,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119368/characters",
-        items: [
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009165",
-            name: "Avengers",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009281",
-            name: "Doctor Doom",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009562",
-            name: "Scarlet Witch",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009629",
-            name: "Storm",
-          },
-        ],
-        returned: 4,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119368/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/259960",
-            name: "cover from Avengers (2023) #19",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/259961",
-            name: "story from Avengers (2023) #19",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119368/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 121604,
-      digitalId: 0,
-      title: "Avengers United Infinity Comic (2023) #52",
-      issueNumber: 52,
-      variantDescription: "",
-      description: "",
-      modified: "2024-08-06T09:40:45-0400",
-      isbn: "",
-      upc: "75960620749705211",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/121604",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/121604/avengers_united_infinity_comic_2023_52?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/37864",
-        name: "Avengers United Infinity Comic (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-17T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-16T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/a/04/66cc8f8f8f6fa",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/a/04/66cc8f8f8f6fa",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121604/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12854",
-            name: "Paul Allor",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14627",
-            name: "Eric Gapstur",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12974",
-            name: "Vc Joe Sabino",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13052",
-            name: "Israel Silva",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121604/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121604/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264437",
-            name: "cover from Avengers United Infinity Comic (2023) #52",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264438",
-            name: "story from Avengers United Infinity Comic (2023) #52",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121604/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 120196,
-      digitalId: 68899,
-      title: "Avengers Assemble (2024) #2",
-      issueNumber: 2,
-      variantDescription: "",
-      description:
-        "Captain America, Hawkeye, Night Thrasher and Hercules deploy to investigate a small New England town tormented by the radioactive ghosts of Super-Apes! But are the spectral simians villains or victims? And what is the RED GHOST doing in Massachusetts?",
-      modified: "2024-09-10T15:48:19-0400",
-      isbn: "",
-      upc: "759606210221000211",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120196",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120196/avengers_assemble_2024_2?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-Assemble-2/digital-comic/68899?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68899&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-16T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-16T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-09-10T00:00:00-0400",
-        },
-        {
-          type: "digitalPurchaseDate",
-          date: "2024-09-10T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 3.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/a/20/66a3eda9853e9",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/a/20/66a3eda9853e9",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 8,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120196/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13174",
-            name: "Elisabetta D'AMICO",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13804",
-            name: "Scot Eaton",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13250",
-            name: "Romulo Fajardo Jr.",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/758",
-            name: "Leinil Francis Yu",
-            role: "penciler (cover)",
-          },
-        ],
-        returned: 8,
-      },
-      characters: {
-        available: 3,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120196/characters",
-        items: [
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009165",
-            name: "Avengers",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009220",
-            name: "Captain America",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009338",
-            name: "Hawkeye",
-          },
-        ],
-        returned: 3,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120196/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261619",
-            name: "cover from Avengers Assemble (2024) #2",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261620",
-            name: "story from Avengers Assemble (2024) #2",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120196/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 112217,
-      digitalId: 0,
-      title: "Avengers United Infinity Comic (2023) #51",
-      issueNumber: 51,
-      variantDescription: "",
-      description:
-        "Vision figures out how to bring his friends home--but is there anyone left to save?",
-      modified: "2024-07-12T09:19:53-0400",
-      isbn: "",
-      upc: "75960620749705111",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/112217",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/112217/avengers_united_infinity_comic_2023_51?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/37864",
-        name: "Avengers United Infinity Comic (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-10T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-09T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/66c3af751980f",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/66c3af751980f",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112217/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12854",
-            name: "Paul Allor",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14627",
-            name: "Eric Gapstur",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12974",
-            name: "Vc Joe Sabino",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13052",
-            name: "Israel Silva",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112217/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112217/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/245606",
-            name: "cover from Avengers United Infinity Comic (2023) #51",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/245607",
-            name: "story from Avengers United Infinity Comic (2023) #51",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112217/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 112216,
-      digitalId: 0,
-      title: "Avengers United Infinity Comic (2023) #50",
-      issueNumber: 50,
-      variantDescription: "",
-      description:
-        "Just when her teammates in our world begin to question Wanda’s story, the Scarlet Witch in the containment dimension makes a choice that could set the fates of her friends and enemies alike!",
-      modified: "2024-07-12T09:19:43-0400",
-      isbn: "",
-      upc: "75960620749705011",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/112216",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/112216/avengers_united_infinity_comic_2023_50?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/37864",
-        name: "Avengers United Infinity Comic (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-03T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-02T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/c/70/66bf88a1c1a5f",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/c/70/66bf88a1c1a5f",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112216/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12854",
-            name: "Paul Allor",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14627",
-            name: "Eric Gapstur",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12974",
-            name: "Vc Joe Sabino",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13052",
-            name: "Israel Silva",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112216/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112216/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/245604",
-            name: "cover from Avengers United Infinity Comic (2023) #50",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/245605",
-            name: "story from Avengers United Infinity Comic (2023) #50",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112216/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 121552,
-      digitalId: 0,
-      title: "Avengers Academy: Marvel’S Voices Infinity Comic (2024) #15",
-      issueNumber: 15,
-      variantDescription: "",
-      description:
-        "First date! Romance at the Academy heats up as two of the cast finally go on a long-awaited date. But summer’s over, the shadows are lengthening, and that’s not the smell of love on the air—it’s brimstone.",
-      modified: "2024-08-06T09:32:14-0400",
-      isbn: "",
-      upc: "75960621045901511",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/121552",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/121552/avengers_academy_marvels_voices_infinity_comic_2024_15?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/42198",
-        name: "Avengers Academy: Marvel’S Voices Infinity Comic (2024 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-10-02T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-09-02T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/c/20/66d08facc150f",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/c/20/66d08facc150f",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121552/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13200",
-            name: "Sarah Brunstad",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14478",
-            name: "K.J. Diaz",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14075",
-            name: "Vc Ariana Maher",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14145",
-            name: "Anthony Oliveira",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14542",
-            name: "Bailie Rosenlund",
-            role: "inker",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121552/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121552/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264333",
-            name: "cover from Avengers Academy: Marvel’S Voices Infinity Comic (2024) #15",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264334",
-            name: "story from Avengers Academy: Marvel’S Voices Infinity Comic (2024) #15",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121552/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 118652,
-      digitalId: 68478,
-      title: "AVENGERS ANNUAL #1 [IW] (2024) #1",
-      issueNumber: 1,
-      variantDescription: "",
-      description:
-        '"INFINITY WATCH" FINALE! The Infinity Stone bearers are all brought together for the first time! If you thought the stones were dangerous in Thanos\' hands, imagine if Star gets her way!',
-      modified: "2024-07-31T17:36:08-0400",
-      isbn: "",
-      upc: "75960620978100111",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/118652",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/118652/avengers_annual_1_iw_2024_1?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "purchase",
-          url: "http://comicstore.marvel.com/AVENGERS-ANNUAL-1-IW-1/digital-comic/68478?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68478&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41616",
-        name: "AVENGERS ANNUAL #1 [IW] (2024)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-25T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-26T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-09-05T00:00:00-0400",
-        },
-        {
-          type: "digitalPurchaseDate",
-          date: "2024-09-05T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 4.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/7/a0/6669b7869cab8",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/7/a0/6669b7869cab8",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/118652/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12239",
-            name: "Guru Efx",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12861",
-            name: "Derek Landy",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/11757",
-            name: "Salvador Larroca",
-            role: "penciler (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/4300",
-            name: "Nick Lowe",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 3,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/118652/characters",
-        items: [
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009368",
-            name: "Iron Man",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009652",
-            name: "Thanos",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009664",
-            name: "Thor",
-          },
-        ],
-        returned: 3,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/118652/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/258528",
-            name: "cover from Infinity Watch: TBD H (2024) #1",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/258529",
-            name: "story from Infinity Watch: TBD H (2024) #1",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/118652/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 119367,
-      digitalId: 68477,
-      title: "Avengers (2023) #18",
-      issueNumber: 18,
-      variantDescription: "",
-      description:
-        "STORM AGAINST HYPERION! New Avengers member STORM has joined the team just in time to deal with catastrophe… And she'll need to call in other mutants to help against this world-ending threat! A who's who of the Marvel Universe must unite against the supreme power of Hyperion! And someone steps OFF the Avengers…",
-      modified: "2024-09-05T12:59:31-0400",
-      isbn: "",
-      upc: "75960620426701811",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/119367",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/119367/avengers_2023_18?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-18/digital-comic/68477?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68477&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/34716",
-        name: "Avengers (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-18T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-19T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-09-05T00:00:00-0400",
-        },
-        {
-          type: "digitalPurchaseDate",
-          date: "2024-09-05T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 3.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/6/90/6669b76a1fb04",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/6/90/6669b76a1fb04",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 7,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119367/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13106",
-            name: "Joshua Cassara",
-            role: "penciler (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12239",
-            name: "Guru Efx",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13471",
-            name: "Jed Mackay",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12376",
-            name: "Wilson Moss",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/11912",
-            name: "Valerio Schiti",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14328",
-            name: "Bryan Valenza",
-            role: "colorist",
-          },
-        ],
-        returned: 7,
-      },
-      characters: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119367/characters",
-        items: [
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009165",
-            name: "Avengers",
-          },
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009629",
-            name: "Storm",
-          },
-        ],
-        returned: 2,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119367/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/259958",
-            name: "cover from Avengers (2023) #18",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/259959",
-            name: "story from Avengers (2023) #18",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/119367/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 112213,
-      digitalId: 68357,
-      title: "Avengers United Infinity Comic (2023) #47",
-      issueNumber: 47,
-      variantDescription: "",
-      description:
-        "The Scarlet Witch’s scary story finds the Avengers trapped in a containment dimension with a vengeful monster and a question--who will be the next to die?!",
-      modified: "2024-07-12T09:19:12-0400",
-      isbn: "",
-      upc: "75960620749704711",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/112213",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/112213/avengers_united_infinity_comic_2023_47?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68357&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/37864",
-        name: "Avengers United Infinity Comic (2023 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-12T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-08-29T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/66c63128dd71f",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/66c63128dd71f",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112213/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12854",
-            name: "Paul Allor",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12644",
-            name: "Alan Robinson",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12974",
-            name: "Vc Joe Sabino",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13052",
-            name: "Israel Silva",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112213/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112213/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/245598",
-            name: "cover from Avengers United Infinity Comic (2023) #47",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/245599",
-            name: "story from Avengers United Infinity Comic (2023) #47",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/112213/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 120195,
-      digitalId: 68479,
-      title: "Avengers Assemble (2024) #1",
-      issueNumber: 1,
-      variantDescription: "",
-      description:
-        "RETURN TO AVENGERS MANSION! When vampires attacked, a ragtag group of volunteer Avengers changed the tide of battle. And in the aftermath, Captain America has formed the Avengers Emergency Response Squad! Steve's handpicked team of veterans and newcomers live and train in Avengers Mansion, and when Captain America sounds the mission horn, whoever's on base has seconds to pack up and deploy.  When the Red Skull's daughter discovers a dangerous artifact, Cap, Wasp, Photon and Shang-Chi set out to stop her - while Hawkeye hosts a poker game for the late arrivals. Will the AVENG.E.R.S. pass their first real test? And did someone say…jackets? Spinning out of Jed MacKay's AVENGERS, comics powerhouses Steve Orlando (SCARLET WITCH, SPIDER-MAN 2099) and Cory Smith (WOLVERINE, GHOST RIDER) join forces to expand the world of the Avengers!",
-      modified: "2024-07-31T16:35:25-0400",
-      isbn: "",
-      upc: "759606210221000111",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120195",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120195/avengers_assemble_2024_1?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "purchase",
-          url: "http://comicstore.marvel.com/Avengers-Assemble-1/digital-comic/68479?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68479&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-08-29T00:00:00-0400",
-        },
-        {
-          type: "digitalPurchaseDate",
-          date: "2024-08-29T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 4.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/6/60/66d0822f1ed54",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/6/60/66d0822f1ed54",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 9,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120195/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13174",
-            name: "Elisabetta D'AMICO",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13597",
-            name: "OREN JUNIOR",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13250",
-            name: "Romulo Fajardo Jr.",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13061",
-            name: "Cory Smith",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/758",
-            name: "Leinil Francis Yu",
-            role: "penciler (cover)",
-          },
-        ],
-        returned: 9,
-      },
-      characters: {
-        available: 1,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120195/characters",
-        items: [
-          {
-            resourceURI:
-              "http://gateway.marvel.com/v1/public/characters/1009165",
-            name: "Avengers",
-          },
-        ],
-        returned: 1,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120195/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261617",
-            name: "cover from Avengers Assemble (2024) #1",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/261618",
-            name: "story from Avengers Assemble (2024) #1",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120195/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 120916,
-      digitalId: 0,
-      title: "Avengers Assemble (2024) #1 (Variant)",
-      issueNumber: 1,
-      variantDescription: "Variant",
-      description:
-        "RETURN TO AVENGERS MANSION! When vampires attacked, a ragtag group of volunteer Avengers changed the tide of battle. And in the aftermath, Captain America has formed the Avengers Emergency Response Squad! Steve's handpicked team of veterans and newcomers live and train in Avengers Mansion, and when Captain America sounds the mission horn, whoever's on base has seconds to pack up and deploy.  When the Red Skull's daughter discovers a dangerous artifact, Cap, Wasp, Photon and Shang-Chi set out to stop her - while Hawkeye hosts a poker game for the late arrivals. Will the AVENG.E.R.S. pass their first real test? And did someone say…jackets? Spinning out of Jed MacKay's AVENGERS, comics powerhouses Steve Orlando (SCARLET WITCH, SPIDER-MAN 2099) and Cory Smith (WOLVERINE, GHOST RIDER) join forces to expand the world of the Avengers!",
-      modified: "2024-06-05T09:22:45-0400",
-      isbn: "",
-      upc: "759606210221000116",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120916",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120916/avengers_assemble_2024_1_variant/variant?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120195",
-          name: "Avengers Assemble (2024) #1",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120915",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/121085",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/121402",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/122597",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-      ],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 4.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/66df01ea9ece8",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/66df01ea9ece8",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 7,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120916/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14266",
-            name: "Betsy Cola",
-            role: "penciler (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13127",
-            name: "Emily Newcomen",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13061",
-            name: "Cory Smith",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13597",
-            name: "OREN JUNIOR",
-            role: "inker",
-          },
-        ],
-        returned: 7,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120916/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120916/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263061",
-            name: "cover from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263062",
-            name: "story from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120916/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 115127,
-      digitalId: 0,
-      title:
-        "AVENGERS BY BUSIEK & PEREZ OMNIBUS VOL. 2 HC GEORGE PEREZ 25TH ISSUE COVER [NEW PRINTING] (Hardcover)",
-      issueNumber: 2,
-      variantDescription: "",
-      description:
-        "Collects Avengers (1998) #24-56 And #1 1/2, Avengers Annual 2000-2001, Thunderbolts (1997) #42-44, Maximum Security: Dangerous Planet (2000), Maximum Security (2000) #1-3, And Avengers: The Ultron Imperative (2001).  Fan-favorite creators Kurt Busiek and George Pérez craft a new era for Earth's Mightiest Heroes! The Avengers forge an uneasy alliance with the Thunderbolts to face Count Nefaria - but the true threat comes from the stars as Earth is declared a cosmic maximum-security prison for alien criminals! To save their planet, and to contend with hordes of rampaging Hulks and the spawn of Ultron, the Avengers must rebuild their operation bigger and better than ever. But when the time-spanning Kang the Conqueror wages war on the present day - and wins - Captain America and a small band of rebels may be the world's only hope for freedom!",
-      modified: "2024-01-24T10:11:51-0500",
-      isbn: "978-1-302-95901-2",
-      upc: "",
-      diamondCode: "",
-      ean: "9781302 959012 59999",
-      issn: "",
-      format: "Hardcover",
-      pageCount: 1248,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/115127",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/collection/115127/avengers_by_busiek_perez_omnibus_vol_2_hc_george_perez_25th_issue_cover_new_printing_hardcover?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/39368",
-        name: "AVENGERS BY BUSIEK & PEREZ OMNIBUS VOL. 2 HC GEORGE PEREZ 25TH ISSUE COVER [NEW PRINTING] (2024)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-04-01T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 125,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/6671f3076d9db",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/6671f3076d9db",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 58,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/115127/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/498",
-            name: "Greg Adams",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/4829",
-            name: "Will Blyberg",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1341",
-            name: "Norm Breyfogle",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13284",
-            name: "Ciane Dusk",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/2078",
-            name: "Randy Emberlin",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/440",
-            name: "Mark Farmer",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/404",
-            name: "Dick Giordano",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/552",
-            name: "Wade Von Grawbadger",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/362",
-            name: "Scott Hanna",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/651",
-            name: "Brent Anderson",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/87",
-            name: "Mark Bagley",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1192",
-            name: "Ian Churchill",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/16",
-            name: "Alan Davis",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/180",
-            name: "Kieron Dwyer",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/374",
-            name: "Steve Epting",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/614",
-            name: "Manuel Garcia",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/483",
-            name: "Tom Grummett",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1231",
-            name: "Kurt Busiek",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/104",
-            name: "Steve Englehart",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1224",
-            name: "Hi-Fi Design",
-            role: "colorist",
-          },
-        ],
-        returned: 20,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/115127/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/115127/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/251474",
-            name: "cover from AVENGERS BY BUSIEK & PEREZ OMNIBUS VOL. 2 HC PEREZ COVER [NEW PRINTING] (2024) #2",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/251475",
-            name: "story from AVENGERS BY BUSIEK & PEREZ OMNIBUS VOL. 2 HC PEREZ COVER [NEW PRINTING] (2024) #2",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/115127/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 121402,
-      digitalId: 0,
-      title: "Avengers Assemble (2024) #1 (Variant)",
-      issueNumber: 1,
-      variantDescription: "Variant",
-      description:
-        "RETURN TO AVENGERS MANSION! When vampires attacked, a ragtag group of volunteer Avengers changed the tide of battle. And in the aftermath, Captain America has formed the Avengers Emergency Response Squad! Steve's handpicked team of veterans and newcomers live and train in Avengers Mansion, and when Captain America sounds the mission horn, whoever's on base has seconds to pack up and deploy.  When the Red Skull's daughter discovers a dangerous artifact, Cap, Wasp, Photon and Shang-Chi set out to stop her - while Hawkeye hosts a poker game for the late arrivals. Will the AVENG.E.R.S. pass their first real test? And did someone say…jackets? Spinning out of Jed MacKay's AVENGERS, comics powerhouses Steve Orlando (SCARLET WITCH, SPIDER-MAN 2099) and Cory Smith (WOLVERINE, GHOST RIDER) join forces to expand the world of the Avengers!",
-      modified: "2024-06-05T09:21:49-0400",
-      isbn: "",
-      upc: "759606210221000141",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/121402",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/121402/avengers_assemble_2024_1_variant/variant?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120195",
-          name: "Avengers Assemble (2024) #1",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120915",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120916",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/121085",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/122597",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-      ],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 4.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/e/b0/66df01bff0ab2",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/e/b0/66df01bff0ab2",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 7,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121402/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12991",
-            name: "Rachelle Rosenberg",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13061",
-            name: "Cory Smith",
-            role: "penciler (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13597",
-            name: "OREN JUNIOR",
-            role: "inker",
-          },
-        ],
-        returned: 7,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121402/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121402/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264033",
-            name: "cover from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/264034",
-            name: "story from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121402/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 120912,
-      digitalId: 68967,
-      title: "Avengers Academy: Marvel’S Voices Infinity Comic (2024) #12",
-      issueNumber: 12,
-      variantDescription: "",
-      description:
-        "Sinister Six conclusion! Calvin Cuttle, a.k.a. Squid Kid, has gone completely mad! With the Goblin Serum ready for mass-production at their hands, the Six stand poised to dominate the planet—but will it be worth the cost of their souls?",
-      modified: "2024-07-12T09:17:29-0400",
-      isbn: "",
-      upc: "75960621045901211",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Digital Vertical Comic",
-      pageCount: 6,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120912",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120912/avengers_academy_marvels_voices_infinity_comic_2024_12?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-        {
-          type: "reader",
-          url: "http://marvel.com/digitalcomics/view.htm?iid=68967&utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/42198",
-        name: "Avengers Academy: Marvel’S Voices Infinity Comic (2024 - Present)",
-      },
-      variants: [],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-        {
-          type: "unlimitedDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 0,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/9/40/66c3af8ac0491",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/9/40/66c3af8ac0491",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 5,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120912/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13200",
-            name: "Sarah Brunstad",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/8606",
-            name: "Ig Guara",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12996",
-            name: "Ian Herring",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14075",
-            name: "Vc Ariana Maher",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14145",
-            name: "Anthony Oliveira",
-            role: "writer",
-          },
-        ],
-        returned: 5,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120912/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120912/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263053",
-            name: "cover from Avengers Academy: Marvel’S Voices Infinity Comic (2024) #12",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263054",
-            name: "story from Avengers Academy: Marvel’S Voices Infinity Comic (2024) #12",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120912/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 120915,
-      digitalId: 0,
-      title: "Avengers Assemble (2024) #1 (Variant)",
-      issueNumber: 1,
-      variantDescription: "Variant",
-      description:
-        "RETURN TO AVENGERS MANSION! When vampires attacked, a ragtag group of volunteer Avengers changed the tide of battle. And in the aftermath, Captain America has formed the Avengers Emergency Response Squad! Steve's handpicked team of veterans and newcomers live and train in Avengers Mansion, and when Captain America sounds the mission horn, whoever's on base has seconds to pack up and deploy.  When the Red Skull's daughter discovers a dangerous artifact, Cap, Wasp, Photon and Shang-Chi set out to stop her - while Hawkeye hosts a poker game for the late arrivals. Will the AVENG.E.R.S. pass their first real test? And did someone say…jackets? Spinning out of Jed MacKay's AVENGERS, comics powerhouses Steve Orlando (SCARLET WITCH, SPIDER-MAN 2099) and Cory Smith (WOLVERINE, GHOST RIDER) join forces to expand the world of the Avengers!",
-      modified: "2024-06-05T09:22:31-0400",
-      isbn: "",
-      upc: "759606210221000121",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/120915",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/120915/avengers_assemble_2024_1_variant/variant?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120195",
-          name: "Avengers Assemble (2024) #1",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120916",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/121085",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/121402",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/122597",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-      ],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 4.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/66df028fbce67",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/66df028fbce67",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 8,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120915/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12817",
-            name: "Emilio Laiso",
-            role: "penciler (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13046",
-            name: "Alanna Smith",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13061",
-            name: "Cory Smith",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13597",
-            name: "OREN JUNIOR",
-            role: "inker",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14328",
-            name: "Bryan Valenza",
-            role: "colorist (cover)",
-          },
-        ],
-        returned: 8,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120915/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120915/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263059",
-            name: "cover from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263060",
-            name: "story from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/120915/events",
-        items: [],
-        returned: 0,
-      },
-    },
-    {
-      id: 121085,
-      digitalId: 0,
-      title: "Avengers Assemble (2024) #1 (Variant)",
-      issueNumber: 1,
-      variantDescription: "Variant",
-      description:
-        "RETURN TO AVENGERS MANSION! When vampires attacked, a ragtag group of volunteer Avengers changed the tide of battle. And in the aftermath, Captain America has formed the Avengers Emergency Response Squad! Steve's handpicked team of veterans and newcomers live and train in Avengers Mansion, and when Captain America sounds the mission horn, whoever's on base has seconds to pack up and deploy.  When the Red Skull's daughter discovers a dangerous artifact, Cap, Wasp, Photon and Shang-Chi set out to stop her - while Hawkeye hosts a poker game for the late arrivals. Will the AVENG.E.R.S. pass their first real test? And did someone say…jackets? Spinning out of Jed MacKay's AVENGERS, comics powerhouses Steve Orlando (SCARLET WITCH, SPIDER-MAN 2099) and Cory Smith (WOLVERINE, GHOST RIDER) join forces to expand the world of the Avengers!",
-      modified: "2024-06-05T09:22:18-0400",
-      isbn: "",
-      upc: "759606210221000131",
-      diamondCode: "",
-      ean: "",
-      issn: "",
-      format: "Comic",
-      pageCount: 32,
-      textObjects: [],
-      resourceURI: "http://gateway.marvel.com/v1/public/comics/121085",
-      urls: [
-        {
-          type: "detail",
-          url: "http://marvel.com/comics/issue/121085/avengers_assemble_2024_1_variant/variant?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
-        },
-      ],
-      series: {
-        resourceURI: "http://gateway.marvel.com/v1/public/series/41921",
-        name: "Avengers Assemble (2024 - Present)",
-      },
-      variants: [
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120195",
-          name: "Avengers Assemble (2024) #1",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120915",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/120916",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/121402",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-        {
-          resourceURI: "http://gateway.marvel.com/v1/public/comics/122597",
-          name: "Avengers Assemble (2024) #1 (Variant)",
-        },
-      ],
-      collections: [],
-      collectedIssues: [],
-      dates: [
-        {
-          type: "onsaleDate",
-          date: "2024-09-11T00:00:00-0400",
-        },
-        {
-          type: "focDate",
-          date: "2024-08-12T00:00:00-0400",
-        },
-      ],
-      prices: [
-        {
-          type: "printPrice",
-          price: 4.99,
-        },
-      ],
-      thumbnail: {
-        path: "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/66df028eee832",
-        extension: "jpg",
-      },
-      images: [
-        {
-          path: "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/66df028eee832",
-          extension: "jpg",
-        },
-      ],
-      creators: {
-        available: 8,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121085/creators",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14449",
-            name: "Ceci De La Cruz",
-            role: "colorist (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13127",
-            name: "Emily Newcomen",
-            role: "editor",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/1374",
-            name: "Sonia Oback",
-            role: "colorist",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14104",
-            name: "Steve Orlando",
-            role: "writer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/12980",
-            name: "Vc Cory Petit",
-            role: "letterer",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/14625",
-            name: "Anand Ramcheron",
-            role: "penciler (cover)",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13061",
-            name: "Cory Smith",
-            role: "penciler",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/creators/13597",
-            name: "OREN JUNIOR",
-            role: "inker",
-          },
-        ],
-        returned: 8,
-      },
-      characters: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121085/characters",
-        items: [],
-        returned: 0,
-      },
-      stories: {
-        available: 2,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121085/stories",
-        items: [
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263399",
-            name: "cover from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "cover",
-          },
-          {
-            resourceURI: "http://gateway.marvel.com/v1/public/stories/263400",
-            name: "story from Avengers Assemble (2024) #1 (VARIANT)",
-            type: "interiorStory",
-          },
-        ],
-        returned: 2,
-      },
-      events: {
-        available: 0,
-        collectionURI:
-          "http://gateway.marvel.com/v1/public/comics/121085/events",
-        items: [],
-        returned: 0,
-      },
-    },
-  ],
-};
 
 export const marvelEventsByCharacterId = {
   offset: 0,
@@ -9860,11 +6726,11 @@ export const marvelEventsByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/events/269/secret_invasion?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/events/269/secret_invasion?",
         },
         {
           type: "wiki",
-          url: "http://marvel.com/universe/Secret_Invasion?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/universe/Secret_Invasion?",
         },
       ],
       modified: "2015-01-20T14:58:35-0500",
@@ -10397,7 +7263,7 @@ export const marvelSeriesByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/series/1945/avengers_the_initiative_2007_-_2010?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/series/1945/avengers_the_initiative_2007_-_2010?",
         },
       ],
       startYear: 2007,
@@ -10859,7 +7725,7 @@ export const marvelSeriesByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/series/2005/deadpool_1997_-_2002?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/series/2005/deadpool_1997_-_2002?",
         },
       ],
       startYear: 1997,
@@ -11305,7 +8171,7 @@ export const marvelSeriesByCharacterId = {
       urls: [
         {
           type: "detail",
-          url: "http://marvel.com/comics/series/2045/marvel_premiere_1972_-_1981?utm_campaign=apiRef&utm_source=ded6c6c641c75957390ad35b1447a733",
+          url: "http://marvel.com/comics/series/2045/marvel_premiere_1972_-_1981?",
         },
       ],
       startYear: 1972,
