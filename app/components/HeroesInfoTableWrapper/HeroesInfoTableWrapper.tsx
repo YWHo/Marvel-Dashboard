@@ -26,7 +26,7 @@ const characterList: InfoList = marvelCharacters.results.map((item) => ({
  */
 export function HeroesInfoTableWrapper() {
   const router = useRouter();
-  return (<InfoTable className="cursor-pointer" list={characterList} dataType={MarvelDataType.WITH_IMAGE} onClickCallback={(id: number) => {
+  return (<InfoTable list={characterList} dataType={MarvelDataType.WITH_IMAGE} onClickCallback={(id: number) => {
     router.push(`/heroes/${id}`);
   }}/>)
 }
