@@ -6,7 +6,7 @@ interface Props extends InfoRow {
   className?: string;
 }
 
-export function RowComponentComic({ className, title }: Props) {
+export function RowComponentSimple({ className, title }: Props) {
   return (
     <li
       className={clsx(
