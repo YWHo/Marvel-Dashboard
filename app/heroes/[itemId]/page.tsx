@@ -1,13 +1,18 @@
 import React from "react";
+import parseHtml from "html-react-parser";
 import { InfoTable } from "@/app/components/InfoTable";
-import { marvelCharacterDetailById } from "@/app/lib/mock-data";
+import { marvelComicsByCharacterId } from "@/app/lib/mock-data";
 import { InfoList, MarvelDataType } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
 
-const characterList: InfoList =
-  marvelCharacterDetailById.results[0].comics.items.map((item) => ({
-    title: item.name,
-  }));
+const comicList: InfoList = marvelComicsByCharacterId.results.map((item) => ({
+  id: item.id,
+  title: item.title || "",
+  description: item.description
+    ? item.description
+    : item.textObjects?.[0]?.text? parseHtml(item.textObjects?.[0]?.text) as string : "",
+  imageURL: `${item.thumbnail.path}.${item.thumbnail.extension}`,
+}));
 
 type Props = {
   params: { itemId: string };
@@ -20,7 +25,7 @@ export default function HeroDetail({ params }: Props) {
         {`Hero's Detail`} {params.itemId}
       </h1>
       <section className="flex items-center justify-center">
-        <InfoTable list={characterList} dataType={MarvelDataType.SIMPLE} />
+        <InfoTable list={comicList} dataType={MarvelDataType.WITH_IMAGE} />
       </section>
       <Footer />
     </div>
