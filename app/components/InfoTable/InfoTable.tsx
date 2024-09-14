@@ -2,7 +2,7 @@
 
 import React from "react";
 import clsx from "clsx";
-import { InfoList, MarvelDataType } from "@/app/lib/type-definitions";
+import { InfoList, MarvelDataType, OnClickCallbackFn } from "@/app/lib/type-definitions";
 import { RowComponentWithImage } from "./RowComponentWithImage";
 import { RowComponentSimple } from "./RowComponentSimple";
 
@@ -10,7 +10,7 @@ type Props = {
   list: InfoList;
   dataType: MarvelDataType;
   className?: string;
-  onClickCallback?: Function;
+  onClickCallback?: OnClickCallbackFn;
 }
 
 export function InfoTable({ className, dataType, list, onClickCallback }: Props) {

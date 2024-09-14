@@ -3,11 +3,11 @@
 import React from "react";
 import clsx from "clsx";
 import Image from "next/image";
-import { InfoRow } from "@/app/lib/type-definitions";
+import { InfoRow, OnClickCallbackFn } from "@/app/lib/type-definitions";
 
 interface Props extends InfoRow {
   className?: string;
-  onClickCallback?: Function;
+  onClickCallback?: OnClickCallbackFn;
 }
 
 export function RowComponentWithImage({

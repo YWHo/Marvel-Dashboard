@@ -12,3 +12,5 @@ export enum MarvelDataType {
     WITH_IMAGE = "WITH_IMAGE",
     SIMPLE = "SIMPLE"
 }
+
+export type OnClickCallbackFn = (id: number | undefined) => void;

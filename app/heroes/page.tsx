@@ -1,15 +1,6 @@
 import React from "react";
 import { HeroesInfoTableWrapper } from "@/app/components/HeroesInfoTableWrapper";
-import { marvelCharacters } from "@/app/lib/mock-data";
-import { InfoList } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
-
-const characterList: InfoList = marvelCharacters.results.map((item) => ({
-  id: item.id,
-  title: item.name,
-  description: item.description,
-  imageURL: `${item.thumbnail.path}.${item.thumbnail.extension}`,
-}));
 
 export default function HeroesPage() {
   return (
