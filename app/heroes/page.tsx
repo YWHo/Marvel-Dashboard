@@ -1,7 +1,7 @@
 import React from "react";
-import { InfoTable } from "@/app/components/InfoTable";
+import { HeroesInfoTableWrapper } from "@/app/components/HeroesInfoTableWrapper";
 import { marvelCharacters } from "@/app/lib/mock-data";
-import { InfoList, MarvelDataType } from "@/app/lib/type-definitions";
+import { InfoList } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
 
 const characterList: InfoList = marvelCharacters.results.map((item) => ({
@@ -18,7 +18,7 @@ export default function HeroesPage() {
         The Marvel heroes
       </h1>
       <section className="flex flex-col items-center justify-center">
-        <InfoTable list={characterList} dataType={MarvelDataType.WITH_IMAGE} />
+        <HeroesInfoTableWrapper />
         <div className="my-8">&nbsp;</div>
       </section>
       <Footer />

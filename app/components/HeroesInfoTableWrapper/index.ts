@@ -1,0 +1,1 @@
+export { HeroesInfoTableWrapper } from "./HeroesInfoTableWrapper";
