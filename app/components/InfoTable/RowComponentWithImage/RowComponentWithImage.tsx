@@ -10,13 +10,13 @@ interface Props extends InfoRow {
 export function RowComponentWithImage({ className, title, description, imageURL = "" }: Props) {
   return (
     <li className={clsx("flex w-full border-b border-gray-500 p-4 bg-gray-900 rounded", className)}>
-      <figure className="max-w-[120px] max-h-[120px] flex-shrink-0 items-center justify-center w-1/3 md:w-1/6 mr-2 text-white">
+      <figure className="max-w-[130px] max-h-[130px] items-center justify-center w-1/3 md:w-1/6 mr-2 text-white">
         <Image
           src={imageURL}
           alt={`${title} image`}
           width={100}
           height={100}
-          style={{ width: "100%", height: "auto" }}
+          className="max-h-full w-auto object-contain"
         />
       </figure>
       <article className="flex-grow w-1/2 sm:w-2/3 md:w-5/6 flex flex-col text-gray-200">
