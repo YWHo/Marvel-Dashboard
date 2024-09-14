@@ -1,0 +1,1 @@
+export { RowComponentComic } from "./RowComponentComic";

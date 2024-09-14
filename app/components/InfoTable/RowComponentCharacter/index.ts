@@ -1,0 +1,1 @@
+export { RowComponentCharacter } from './RowComponentCharacter';
