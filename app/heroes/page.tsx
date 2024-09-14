@@ -17,8 +17,9 @@ export default function HeroesPage() {
       <h1 className="text-3xl m-4 text-center text-blue-200 font-serif font-extrabold">
         The Marvel heroes
       </h1>
-      <section className="flex items-center justify-center">
+      <section className="flex flex-col items-center justify-center">
         <InfoTable list={characterList} dataType={MarvelDataType.WITH_IMAGE} />
+        <div className="my-8">&nbsp;</div>
       </section>
       <Footer />
     </div>

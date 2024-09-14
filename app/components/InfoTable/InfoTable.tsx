@@ -14,7 +14,7 @@ export function InfoTable({ className, dataType, list }: Props) {
   return (
     <div className={clsx("min-[100px]: max-w-screen-lg", className)}>
       <p className="font-bold mb-2 text-white">InfoTable</p>
-      <ul className="flex-grow max-h-[calc(100vh-170px)] flex flex-col list-none p-0 overflow-y-auto gap-y-1">
+      <ul className="flex-grow max-h-[calc(100vh-180px)] flex flex-col list-none p-0 overflow-y-auto gap-y-1">
         {dataType == MarvelDataType.WITH_IMAGE && list.map((item) => (
           <RowComponentWithImage key={item.id} {...item} />
         ))}
