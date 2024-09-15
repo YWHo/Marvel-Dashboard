@@ -39,3 +39,5 @@ export type MarvelResponseDataResultThumbnailType = {
 };
 
 export type OnClickCallbackFn = (id: number | undefined) => void;
+
+export type SortOrder = "ascending" | "descending";

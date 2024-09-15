@@ -12,7 +12,7 @@ type SearchBoxProps = {
 export function SearchBox({
   placeholder = "Search...",
   buttonText = "Search",
-  onSearchCallback,
+  onSearchCallback = () => {},
 }: SearchBoxProps) {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -25,7 +25,7 @@ export function SearchBox({
   };
 
   return (
-    <div className="flex items-center border border-gray-900 rounded-lg overflow-hidden w-[300px] my-4">
+    <div className="flex items-center rounded-lg overflow-hidden w-[290px]">
       <input
         type="text"
         className="flex-1 px-4 py-2 focus:outline-none bg-black"

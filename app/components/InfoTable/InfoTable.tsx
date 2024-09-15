@@ -7,10 +7,12 @@ import {
   InfoList,
   MarvelDataType,
   OnClickCallbackFn,
+  SortOrder
 } from "@/app/lib/type-definitions";
 import { RowComponentWithImage } from "./RowComponentWithImage";
 import { RowComponentSimple } from "./RowComponentSimple";
 import { SearchBox } from "@/app/components/SearchBox";
+import { SortButtons } from "@/app/components/SortButtons";
 import { mapToInfoList } from "@/app/lib/helpers";
 
 const fetcher = (url: string) => {
@@ -40,12 +42,17 @@ export function InfoTable({
   showSearchBox,
 }: Props) {
   const [searchTerm, setSearchTerm] = useState("");
+  const [sortDirection, setSortDirection] = useState<SortOrder>("ascending");
   const limit = 20;
   const offset = 0;
 
   let list: InfoList = [];
 
-  const orderingRequest = orderByType ? `&orderBy=${orderByType}` : "";
+  const orderingRequest = orderByType
+    ? sortDirection == "ascending"
+      ? `&orderBy=${orderByType}`
+      : `&orderBy=-${orderByType}`
+    : "";
   const searchRequest =
     searchByType?.length && searchTerm.length
       ? `&${searchByType}=${searchTerm}`
@@ -72,12 +79,15 @@ export function InfoTable({
         <div className="text-center text-green-400">Loading...</div>
       )}
       {error && <div className="text-center text-red-500">Failed to load </div>}
-      {showSearchBox ? (
-        <SearchBox
-          buttonText="Go"
-          onSearchCallback={(value) => setSearchTerm(value)}
-        />
-      ) : null}
+      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mb-2">
+        {showSearchBox ? (
+          <SearchBox
+            buttonText="Go"
+            onSearchCallback={setSearchTerm}
+          />
+        ) : <div>&nbsp;</div>}
+        <SortButtons onSortCallback={setSortDirection} />
+      </div>
       <ul className="flex-grow max-h-[calc(100vh-180px)] min-h-[100px] w-[290px] sm:w-[600px] md:w-[800px] lg:w-[900px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
         {!isLoading && (!list || list.length == 0) && (
           <li className="text-center">(No data)</li>
