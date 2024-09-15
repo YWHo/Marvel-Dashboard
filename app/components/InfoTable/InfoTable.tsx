@@ -49,8 +49,8 @@ export function InfoTable({ baseUrl, className, dataType, mockData, onClickCallb
       {isLoading && <div className="text-green-400">Loading...</div>}
       {error && <div className="text-red-500">Failed to load </div>}
       <p className="font-bold mb-2 text-white">InfoTable</p>
-      <ul className="relative flex-grow max-h-[calc(100vh-180px)] min-h-[100px] min-w-[280px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
-        <li className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full text-center -z-10">(No data)</li>
+      <ul className="flex-grow max-h-[calc(100vh-180px)] min-h-[100px] min-w-[280px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
+        {(!list || list.length == 0) && <li className="text-center">(No data)</li>}
         {dataType == MarvelDataType.WITH_IMAGE && list.map((item) => (
           <RowComponentWithImage className="cursor-pointer" key={item.id} {...item} onClickCallback={onClickCallback} />
         ))}
