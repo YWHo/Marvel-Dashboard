@@ -1,23 +1,9 @@
 import React from "react";
-import Image from "next/image";
 import { InfoTable } from "@/app/components/InfoTable";
 import { Navbar } from "@/app/components/Navbar";
-import {
-  marvelCharacterDetailById,
-  // marvelComicsByCharacterId,
-  // marvelEventsByCharacterId,
-  // marvelSeriesByCharacterId,
-  // marvelStoriesByCharacterId,
-} from "@/app/lib/mock-data";
 import { MarvelDataType } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
-import { getImageURLFromThumbnail } from "@/app/lib/helpers";
 import { HeroPotrait } from "@/app/components/HeroPotrait";
-
-// const comicList: InfoList = mapToInfoList(marvelComicsByCharacterId.results);
-// const eventList: InfoList = mapToInfoList(marvelEventsByCharacterId.results);
-// const seriesList: InfoList = mapToInfoList(marvelSeriesByCharacterId.results);
-// const storyList: InfoList = mapToInfoList(marvelStoriesByCharacterId.results);
 
 type Props = {
   params: { characterId: string };
@@ -25,11 +11,6 @@ type Props = {
 
 export default function HeroDetail({ params }: Props) {
   const { characterId } = params;
-
-  const heroName = marvelCharacterDetailById.results?.[0]?.name;
-  const imageURL = getImageURLFromThumbnail(
-    marvelCharacterDetailById.results?.[0]?.thumbnail
-  );
 
   return (
     <div className="container mx-auto mt-12 p-2 pb-10 font-[family-name:var(--font-geist-sans)]">
