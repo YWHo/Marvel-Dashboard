@@ -24,26 +24,29 @@ const fetcher = (url: string) => {
 
 type Props = {
   baseUrl: string;
-  mockData?: InfoList;
-  dataType: RowDisplayType;
   className?: string;
-  onClickCallback?: OnClickCallbackFn;
-  orderByType?: string;
+  dataType: RowDisplayType;
+  disablePointer?: boolean;
   hasSearchBox?: boolean;
   hasSortButtons?: boolean;
+  onClickCallback?: OnClickCallbackFn;
+  orderByType?: string;
+  mockData?: InfoList;
   searchByType?: string;
+  
 };
 
 export function InfoTable({
   baseUrl,
-  className,
   dataType,
+  className,
+  disablePointer,
+  hasSearchBox,
+  hasSortButtons,
   mockData,
   onClickCallback,
   orderByType,
   searchByType,
-  hasSearchBox,
-  hasSortButtons,
 }: Props) {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortDirection, setSortDirection] = useState<SortOrder>("ascending");
@@ -116,7 +119,7 @@ export function InfoTable({
         </div>
       )}
       {error && <div className="text-center text-red-500">Failed to load </div>}
-      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mt-11 mb-2">
+      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mt-11 mb-2 md:justify-center items-center">
         {hasSearchBox ? (
           <SearchBox buttonText="Go" onSearchCallback={setSearchTerm} />
         ) : (
@@ -137,7 +140,7 @@ export function InfoTable({
         {dataType == RowDisplayType.WITH_IMAGE &&
           tableItems.map((item) => (
             <RowComponentWithImage
-              className="cursor-pointer"
+              className={clsx({"cursor-pointer": !disablePointer})}
               key={item.id}
               {...item}
               onClickCallback={onClickCallback}
@@ -146,7 +149,7 @@ export function InfoTable({
         {dataType == RowDisplayType.SIMPLE &&
           tableItems.map((item, i) => (
             <RowComponentSimple
-              className="cursor-pointer"
+              className={clsx({"cursor-pointer": !disablePointer})}
               key={`${i}_${item.title.substring(5)}`}
               {...item}
             />

@@ -15,7 +15,7 @@ export function PageNavButtons({
   isLoading,
 }: PageNavButtonsProps) {
   return (
-    <div className="flex space-x-2">
+    <div className="flex space-x-2 w-[290px]">
       <button
         className={clsx(
           "flex-1 py-2 px-4 h-10 rounded-l-lg border border-gray-300 focus:outline-none",

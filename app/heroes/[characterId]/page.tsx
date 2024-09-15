@@ -26,6 +26,7 @@ export default function HeroDetail({ params }: Props) {
         <InfoTable
           baseUrl={`/api/characters/${characterId}/comics`}
           dataType={RowDisplayType.WITH_IMAGE}
+          disablePointer={true}
           orderByType="title"
           hasSortButtons={true}
         />
@@ -38,6 +39,7 @@ export default function HeroDetail({ params }: Props) {
         <InfoTable
           baseUrl={`/api/characters/${characterId}/events`}
           dataType={RowDisplayType.WITH_IMAGE}
+          disablePointer={true}
           orderByType="name"
           hasSortButtons={true}
         />
@@ -50,6 +52,7 @@ export default function HeroDetail({ params }: Props) {
         <InfoTable
           baseUrl={`/api/characters/${characterId}/series`}
           dataType={RowDisplayType.WITH_IMAGE}
+          disablePointer={true}
           orderByType="title"
           hasSortButtons={true}
         />
@@ -62,6 +65,7 @@ export default function HeroDetail({ params }: Props) {
         <InfoTable
           baseUrl={`/api/characters/${characterId}/stories`}
           dataType={RowDisplayType.SIMPLE}
+          disablePointer={true}
           orderByType="id"
         />
         <div className="mt-8">&nbsp;</div>
