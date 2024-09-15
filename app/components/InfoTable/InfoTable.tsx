@@ -49,7 +49,6 @@ export function InfoTable({
   const [offset, setOffset] = useState(0);
   const limit = 20;
   let totalItems = 0;
-  let list: InfoList = [];
 
   const orderingRequest = orderByType
     ? sortDirection == "ascending"
@@ -63,21 +62,25 @@ export function InfoTable({
   const requestUrl = baseUrl
     ? `${baseUrl}?limit=${limit}&offset=${offset}${orderingRequest}${searchRequest}`
     : "";
-  const { data, error, isLoading } = useSWR(requestUrl, fetcher);
+
+  const { data, error, isValidating } = useSWR(requestUrl, fetcher, {
+    keepPreviousData: true,
+    fallbackData: mockData,
+  });
+
+  const tableItems = data && !error ? mapToInfoList(data.data.results) : [];
 
   if (mockData && mockData.length > 0) {
-    list = mockData;
-  } else if (!error && !isLoading) {
+    totalItems = mockData.length;
+  } else if (data && !error) {
     try {
       totalItems = data.data.total;
-      const results = data.data.results;
-      list = mapToInfoList(results);
     } catch (err) {
-      console.log("unexpected results: err:\n", err);
+      console.log("Unexpected results: err:\n", err);
     }
   }
 
-  if (!isLoading && (!list || list.length == 0)) {
+  if (!isValidating && (!tableItems || tableItems.length === 0)) {
     return <div className="w-100 text-center">(No data)</div>;
   }
 
@@ -95,7 +98,7 @@ export function InfoTable({
 
   return (
     <div className={clsx("min-h-[100px]: max-w-screen-lg mt-8", className)}>
-      {isLoading && (
+      {isValidating && (
         <div className="text-center text-green-400">Loading...</div>
       )}
       {error && <div className="text-center text-red-500">Failed to load </div>}
@@ -111,14 +114,14 @@ export function InfoTable({
           ""
         )}
         <PageNavButtons
-          isLoading={isLoading}
+          isLoading={isValidating}
           onPrev={handlePrevPage}
           onNext={handleNextPage}
         />
       </div>
       <ul className="flex-grow max-h-[calc(100vh-180px)] min-h-[100px] w-[290px] sm:w-[600px] md:w-[800px] lg:w-[900px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
         {dataType == RowDisplayType.WITH_IMAGE &&
-          list.map((item) => (
+          tableItems.map((item) => (
             <RowComponentWithImage
               className="cursor-pointer"
               key={item.id}
@@ -127,7 +130,7 @@ export function InfoTable({
             />
           ))}
         {dataType == RowDisplayType.SIMPLE &&
-          list.map((item, i) => (
+          tableItems.map((item, i) => (
             <RowComponentSimple
               className="cursor-pointer"
               key={`${i}_${item.title.substring(5)}`}

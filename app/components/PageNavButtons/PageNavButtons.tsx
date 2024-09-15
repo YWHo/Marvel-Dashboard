@@ -18,7 +18,7 @@ export function PageNavButtons({
     <div className="flex space-x-2">
       <button
         className={clsx(
-          "flex-1 py-2 px-4 rounded-l-lg border border-gray-300 focus:outline-none",
+          "flex-1 py-2 px-4 h-10 rounded-l-lg border border-gray-300 focus:outline-none",
           {
             "bg-gray-200 text-gray-400 cursor-not-allowed": isLoading,
             "bg-white text-gray-700 hover:bg-gray-100 hover:text-black":
@@ -32,7 +32,7 @@ export function PageNavButtons({
       </button>
       <button
         className={clsx(
-          "flex-1 py-2 px-4 rounded-r-lg border border-gray-300 focus:outline-none",
+          "flex-1 py-2 px-4 h-10 rounded-r-lg border border-gray-300 focus:outline-none",
           {
             "bg-gray-200 text-gray-400 cursor-not-allowed": isLoading,
             "bg-white text-gray-700 hover:bg-gray-100 hover:text-black":
