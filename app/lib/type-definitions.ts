@@ -7,7 +7,7 @@ export type InfoRow = {
 
 export type InfoList = InfoRow[];
 
-export enum MarvelDataType {
+export enum RowDisplayType {
   WITH_IMAGE = "WITH_IMAGE",
   SIMPLE = "SIMPLE",
 }

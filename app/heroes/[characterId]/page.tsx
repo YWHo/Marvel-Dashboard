@@ -1,7 +1,7 @@
 import React from "react";
 import { InfoTable } from "@/app/components/InfoTable";
 import { Navbar } from "@/app/components/Navbar";
-import { MarvelDataType } from "@/app/lib/type-definitions";
+import { RowDisplayType } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
 import { HeroPotrait } from "@/app/components/HeroPotrait";
 
@@ -25,7 +25,7 @@ export default function HeroDetail({ params }: Props) {
         </h3>
         <InfoTable
           baseUrl={`/api/characters/${characterId}/comics`}
-          dataType={MarvelDataType.WITH_IMAGE}
+          dataType={RowDisplayType.WITH_IMAGE}
           orderByType="title"
           hasSortButtons={true}
         />
@@ -37,7 +37,7 @@ export default function HeroDetail({ params }: Props) {
         </h3>
         <InfoTable
           baseUrl={`/api/characters/${characterId}/events`}
-          dataType={MarvelDataType.WITH_IMAGE}
+          dataType={RowDisplayType.WITH_IMAGE}
           orderByType="name"
           hasSortButtons={true}
         />
@@ -49,7 +49,7 @@ export default function HeroDetail({ params }: Props) {
         </h3>
         <InfoTable
           baseUrl={`/api/characters/${characterId}/series`}
-          dataType={MarvelDataType.WITH_IMAGE}
+          dataType={RowDisplayType.WITH_IMAGE}
           orderByType="title"
           hasSortButtons={true}
         />
@@ -61,7 +61,7 @@ export default function HeroDetail({ params }: Props) {
         </h3>
         <InfoTable
           baseUrl={`/api/characters/${characterId}/stories`}
-          dataType={MarvelDataType.SIMPLE}
+          dataType={RowDisplayType.SIMPLE}
           orderByType="id"
         />
         <div className="mt-8">&nbsp;</div>

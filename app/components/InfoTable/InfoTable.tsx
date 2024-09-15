@@ -5,7 +5,7 @@ import useSWR from "swr";
 import clsx from "clsx";
 import {
   InfoList,
-  MarvelDataType,
+  RowDisplayType,
   OnClickCallbackFn,
   SortOrder,
 } from "@/app/lib/type-definitions";
@@ -24,7 +24,7 @@ const fetcher = (url: string) => {
 type Props = {
   baseUrl: string;
   mockData?: InfoList;
-  dataType: MarvelDataType;
+  dataType: RowDisplayType;
   className?: string;
   onClickCallback?: OnClickCallbackFn;
   orderByType?: string;
@@ -117,7 +117,7 @@ export function InfoTable({
         />
       </div>
       <ul className="flex-grow max-h-[calc(100vh-180px)] min-h-[100px] w-[290px] sm:w-[600px] md:w-[800px] lg:w-[900px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
-        {dataType == MarvelDataType.WITH_IMAGE &&
+        {dataType == RowDisplayType.WITH_IMAGE &&
           list.map((item) => (
             <RowComponentWithImage
               className="cursor-pointer"
@@ -126,7 +126,7 @@ export function InfoTable({
               onClickCallback={onClickCallback}
             />
           ))}
-        {dataType == MarvelDataType.SIMPLE &&
+        {dataType == RowDisplayType.SIMPLE &&
           list.map((item, i) => (
             <RowComponentSimple
               className="cursor-pointer"

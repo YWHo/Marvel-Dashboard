@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useRouter } from "next/navigation";
-import { MarvelDataType } from "@/app/lib/type-definitions";
+import { RowDisplayType } from "@/app/lib/type-definitions";
 import { InfoTable } from "@/app/components/InfoTable";
 
 /**
@@ -21,7 +21,7 @@ export function HeroesInfoTableWrapper() {
   return (
       <InfoTable
         baseUrl="/api/characters"
-        dataType={MarvelDataType.WITH_IMAGE}
+        dataType={RowDisplayType.WITH_IMAGE}
         orderByType="name"
         onClickCallback={(id) => {
           router.push(`/heroes/${id}`);
