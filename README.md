@@ -14,9 +14,10 @@ git clone https://github.com/YWHo/marvel-dashboard.git
 
 3. Navigate to the `marvel-dashboard` directory.
 
-4. Create a `.env` file and add the API key to it.
-```bash
-MARVEL_ACCESS_KEY=<your API key>
+4. Create a .env.local file in the root directory of the project and add the API key to it.
+```
+MARVEL_ACCESS_PUBLIC_KEY=<your public API key>
+MARVEL_ACCESS_PRIVATE_KEY=<your private API key>
 ```
 > Note: Please obtain your API key from https://developer.marvel.com/.
 
