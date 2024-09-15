@@ -1,6 +1,7 @@
-import { createHash } from 'crypto';
+import { createHash } from "crypto";
 import parseHtml from "html-react-parser";
 import { InfoList } from "@/app/lib/type-definitions";
+import { getCache, setCache } from "../cacheHelper";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function mapToInfoList(items: any[]): InfoList {
@@ -29,11 +30,11 @@ export function mapToInfoList(items: any[]): InfoList {
 
 type ThumbnailProps = {
   path?: string;
-  extension?:string
+  extension?: string;
 } | null;
 
 export function getImageURLFromThumbnail(thumbnail: ThumbnailProps) {
-  if (thumbnail && typeof (thumbnail) == "object") {
+  if (thumbnail && typeof thumbnail == "object") {
     if (
       typeof thumbnail.path == "string" &&
       typeof thumbnail.extension == "string"
@@ -44,7 +45,19 @@ export function getImageURLFromThumbnail(thumbnail: ThumbnailProps) {
   return "";
 }
 
-export function getTargetUrl(reqUrl: string, targetBaseUrl: string) : string {
+export function getCacheKey(reqUrl: string, targetBaseUrl: string): string {
+  const urlObject = new URL(targetBaseUrl);
+
+  // Append incoming query parameters to the target URL
+  const incomingSearchParams = new URL(reqUrl).searchParams;
+  incomingSearchParams.forEach((value, key) => {
+    urlObject.searchParams.append(key, value);
+  });
+
+  return urlObject.toString();
+}
+
+export function getTargetUrl(reqUrl: string, targetBaseUrl: string): string {
   const apiKeyPublic = process.env.MARVEL_ACCESS_PUBLIC_KEY;
   const apiKeyPrivate = process.env.MARVEL_ACCESS_PRIVATE_KEY;
   const timeStamp = getTimestamp("iso");
@@ -58,9 +71,9 @@ export function getTargetUrl(reqUrl: string, targetBaseUrl: string) : string {
   });
 
   // Add new query parameters
-  urlObject.searchParams.append('ts', timeStamp as string);
-  urlObject.searchParams.append('apikey', apiKeyPublic as string);
-  urlObject.searchParams.append('hash', hash);
+  urlObject.searchParams.append("ts", timeStamp as string);
+  urlObject.searchParams.append("apikey", apiKeyPublic as string);
+  urlObject.searchParams.append("hash", hash);
 
   return urlObject.toString();
 }
@@ -70,20 +83,22 @@ export function getTargetUrl(reqUrl: string, targetBaseUrl: string) : string {
  * @param format - The format of the timestamp ('unix', 'unix-seconds', 'iso', or 'locale').
  * @returns The current timestamp in the specified format.
  */
-export function getTimestamp(format: 'unix' | 'unix-seconds' | 'iso' | 'locale' = 'unix'): string | number {
+export function getTimestamp(
+  format: "unix" | "unix-seconds" | "iso" | "locale" = "unix"
+): string | number {
   const now = new Date();
 
   switch (format) {
-    case 'unix':
+    case "unix":
       return now.getTime(); // Unix timestamp in milliseconds
-    case 'unix-seconds':
+    case "unix-seconds":
       return Math.floor(now.getTime() / 1000); // Unix timestamp in seconds
-    case 'iso':
+    case "iso":
       return now.toISOString(); // ISO 8601 format
-    case 'locale':
+    case "locale":
       return now.toLocaleString(); // Locale string format
     default:
-      throw new Error('Unsupported timestamp format');
+      throw new Error("Unsupported timestamp format");
   }
 }
 
@@ -93,5 +108,47 @@ export function getTimestamp(format: 'unix' | 'unix-seconds' | 'iso' | 'locale' 
  * @returns The MD5 hash as a hexadecimal string.
  */
 export function generateMD5(input: string): string {
-  return createHash('md5').update(input).digest('hex');
+  return createHash("md5").update(input).digest("hex");
+}
+
+/**
+ * Fetches data from the specified URL, handles caching, and manages errors.
+ *
+ * @param {string} url - The target URL to fetch data from.
+ * @param {Headers} headers - Headers to forward with the fetch request.
+ * @param {string} cacheKey - Unique key for caching the fetched data.
+ * @returns {Promise<{ data?: any, error?: string, status?: number, isCached: boolean }>}
+ *          Returns an object containing the fetched data, error message, status code, and caching status.
+ */
+export async function fetchData(
+  url: string,
+  headers: Headers,
+  cacheKey: string
+) {
+  const cachedData = getCache(cacheKey);
+  if (cachedData) {
+    console.log(`\n+ Returning cached response for: "${cacheKey}"`);
+    return { data: cachedData };
+  }
+
+  try {
+    const response = await fetch(url, {
+      method: "GET",
+      headers: headers, // Forward headers from the original request
+    });
+
+    if (!response.ok) {
+      return {
+        error: `Error fetching data: ${response.statusText}`,
+        status: response.status,
+      };
+    }
+
+    const data = await response.json();
+    setCache(cacheKey, data); // Cache the data for future requests
+
+    return { data };
+  } catch (error) {
+    return { error: (error as Error).message, status: 500 };
+  }
 }
