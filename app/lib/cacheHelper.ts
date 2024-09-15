@@ -26,6 +26,5 @@ export function getCache(key: string): unknown | null {
       data,
       expires: Date.now() + duration,
     });
-    console.log('\n\n==== memCache:\n', memCache);
   }
   

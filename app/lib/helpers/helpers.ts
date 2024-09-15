@@ -22,7 +22,7 @@ export function mapToInfoList(items: MarvelResponseDataResultType[]): InfoList {
 
     return {
       id: item.id,
-      title: item.title || "",
+      title: item?.name? item.name : item.title || "",
       description: description,
       imageURL: imageURL,
     };
