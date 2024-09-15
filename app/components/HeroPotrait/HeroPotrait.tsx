@@ -15,8 +15,8 @@ export function HeroPotrait({ id }: Props) {
   const requestUrl = `/api/characters/${id}`;
   const { data, error, isLoading } = useSWR(requestUrl, fetcher);
 
-  if (error) return <div>failed to get the Hero</div>;
-  if (isLoading) return <div>{`loading...a Hero's Potrait`}</div>;
+  if (error) return <div className="text-center text-red-500">failed to get the Hero</div>;
+  if (isLoading) return <div className="text-center text-green-400">{`loading...a Hero's Potrait`}</div>;
 
   let heroName = "",
     imageUrl = "";
@@ -28,7 +28,7 @@ export function HeroPotrait({ id }: Props) {
   }
 
   return (
-    <div className="min-h-[360px]">
+    <div className="min-h-[360px] mb-8">
       <h1 className="text-3xl m-4 text-center text-blue-200 font-serif font-extrabold">
         {heroName ? heroName : `Hero's Detail`}
       </h1>
