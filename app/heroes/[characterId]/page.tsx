@@ -4,26 +4,27 @@ import { InfoTable } from "@/app/components/InfoTable";
 import { Navbar } from "@/app/components/Navbar";
 import {
   marvelCharacterDetailById,
-  marvelComicsByCharacterId,
-  marvelEventsByCharacterId,
-  marvelSeriesByCharacterId,
-  marvelStoriesByCharacterId,
+  // marvelComicsByCharacterId,
+  // marvelEventsByCharacterId,
+  // marvelSeriesByCharacterId,
+  // marvelStoriesByCharacterId,
 } from "@/app/lib/mock-data";
-import { InfoList, MarvelDataType } from "@/app/lib/type-definitions";
+import { MarvelDataType } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
-import { getImageURLFromThumbnail, mapToInfoList } from "@/app/lib/helpers";
+import { getImageURLFromThumbnail } from "@/app/lib/helpers";
 
-const comicList: InfoList = mapToInfoList(marvelComicsByCharacterId.results);
-const eventList: InfoList = mapToInfoList(marvelEventsByCharacterId.results);
-const seriesList: InfoList = mapToInfoList(marvelSeriesByCharacterId.results);
-const storyList: InfoList = mapToInfoList(marvelStoriesByCharacterId.results);
+// const comicList: InfoList = mapToInfoList(marvelComicsByCharacterId.results);
+// const eventList: InfoList = mapToInfoList(marvelEventsByCharacterId.results);
+// const seriesList: InfoList = mapToInfoList(marvelSeriesByCharacterId.results);
+// const storyList: InfoList = mapToInfoList(marvelStoriesByCharacterId.results);
 
 type Props = {
   params: { characterId: string };
 };
 
 export default function HeroDetail({ params }: Props) {
-  console.log("params.characterId: ", params.characterId); // params.characterId
+  const { characterId } = params;
+
   const heroName = marvelCharacterDetailById.results?.[0]?.name;
   const imageURL = getImageURLFromThumbnail(
     marvelCharacterDetailById.results?.[0]?.thumbnail
@@ -53,28 +54,44 @@ export default function HeroDetail({ params }: Props) {
         >
           Comics
         </h3>
-        <InfoTable list={comicList} dataType={MarvelDataType.WITH_IMAGE} />
+        <InfoTable
+          baseUrl={`/api/characters/${characterId}/comics`}
+          dataType={MarvelDataType.WITH_IMAGE}
+          orderByType="title"
+        />
         <h3
           id="event_group"
           className="text-2xl mt-10 text-red-500 font-semibold"
         >
           Events
         </h3>
-        <InfoTable list={eventList} dataType={MarvelDataType.WITH_IMAGE} />
+        <InfoTable
+          baseUrl={`/api/characters/${characterId}/events`}
+          dataType={MarvelDataType.WITH_IMAGE}
+          orderByType="name"
+        />
         <h3
           id="series_group"
           className="text-2xl mt-10 text-red-500 font-semibold"
         >
           Series
         </h3>
-        <InfoTable list={seriesList} dataType={MarvelDataType.WITH_IMAGE} />
+        <InfoTable
+          baseUrl={`/api/characters/${characterId}/series`}
+          dataType={MarvelDataType.WITH_IMAGE}
+          orderByType="title"
+        />
         <h3
           id="story_group"
           className="text-2xl mt-8 text-red-500 font-semibold"
         >
           Stories
         </h3>
-        <InfoTable list={storyList} dataType={MarvelDataType.SIMPLE} />
+        <InfoTable
+          baseUrl={`/api/characters/${characterId}/stories`}
+          dataType={MarvelDataType.SIMPLE}
+          orderByType="id"
+        />
         <div className="mt-8">&nbsp;</div>
       </section>
       <Footer />
