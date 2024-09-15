@@ -12,6 +12,7 @@ import {
 import { MarvelDataType } from "@/app/lib/type-definitions";
 import { Footer } from "@/app/components/Footer";
 import { getImageURLFromThumbnail } from "@/app/lib/helpers";
+import { HeroPotrait } from "@/app/components/HeroPotrait";
 
 // const comicList: InfoList = mapToInfoList(marvelComicsByCharacterId.results);
 // const eventList: InfoList = mapToInfoList(marvelEventsByCharacterId.results);
@@ -33,20 +34,7 @@ export default function HeroDetail({ params }: Props) {
   return (
     <div className="container mx-auto mt-12 p-2 pb-10 font-[family-name:var(--font-geist-sans)]">
       <Navbar />
-      <h1 className="text-3xl m-4 text-center text-blue-200 font-serif font-extrabold">
-        {heroName ? heroName : `Hero's Detail`}
-      </h1>
-      {imageURL.length > 0 && (
-        <figure className="flex flex-col items-center justify-center mt-6">
-          <Image
-            src={imageURL}
-            alt="Centered Landing Image"
-            width={300}
-            height={300}
-            className="object-contain rounded" // Ensures the image scales down within the bounds
-          />
-        </figure>
-      )}
+      <HeroPotrait id={characterId} />
       <section className="flex flex-col items-center justify-center">
         <h3
           id="comic_group"

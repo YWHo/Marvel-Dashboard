@@ -35,7 +35,6 @@ export function InfoTable({ baseUrl, className, dataType, mockData, onClickCallb
   if (mockData && mockData.length > 0) {
     list = mockData;
   } else if (!error && !isLoading) {
-    console.log(`${baseUrl} data:\n`, data);
     try {
       const results = data.data.results;
       list = mapToInfoList(results);
