@@ -13,6 +13,7 @@ import { RowComponentWithImage } from "./RowComponentWithImage";
 import { RowComponentSimple } from "./RowComponentSimple";
 import { SearchBox } from "@/app/components/SearchBox";
 import { SortButtons } from "@/app/components/SortButtons";
+import { Spinner } from "@/app/components/Spiner";
 import { PageNavButtons } from "@/app/components/PageNavButtons";
 import { mapToInfoList } from "@/app/lib/helpers";
 
@@ -110,12 +111,12 @@ export function InfoTable({
       )}
     >
       {isValidating && (
-        <div className="absolute top-1 left-1/2 transform -translate-x-1/2 text-green-400">
-          Loading...
+        <div className="absolute top-1 left-1/2 transform -translate-x-1/2">
+          <Spinner />
         </div>
       )}
       {error && <div className="text-center text-red-500">Failed to load </div>}
-      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mt-10 mb-2">
+      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mt-11 mb-2">
         {hasSearchBox ? (
           <SearchBox buttonText="Go" onSearchCallback={setSearchTerm} />
         ) : (
