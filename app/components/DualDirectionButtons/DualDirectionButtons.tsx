@@ -3,17 +3,17 @@
 import React from "react";
 import clsx from "clsx";
 
-type PageNavButtonsProps = {
+type DualDirectionButtonsProps = {
   onPrev: () => void;
   onNext: () => void;
   isLoading: boolean;
 };
 
-export function PageNavButtons({
+export function DualDirectionButtons({
   onPrev,
   onNext,
   isLoading,
-}: PageNavButtonsProps) {
+}: DualDirectionButtonsProps) {
   return (
     <div className="flex space-x-2 w-[290px]">
       <button

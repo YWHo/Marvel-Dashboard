@@ -14,7 +14,7 @@ import { RowComponentSimple } from "./RowComponentSimple";
 import { SearchBox } from "@/app/components/SearchBox";
 import { SortButtons } from "@/app/components/SortButtons";
 import { Spinner } from "@/app/components/Spiner";
-import { PageNavButtons } from "@/app/components/PageNavButtons";
+import { DualDirectionButtons } from "@/app/components/DualDirectionButtons";
 import { mapToInfoList } from "@/app/lib/helpers";
 
 const fetcher = (url: string) => {
@@ -130,7 +130,7 @@ export function InfoTable({
         ) : (
           ""
         )}
-        <PageNavButtons
+        <DualDirectionButtons
           isLoading={isValidating}
           onPrev={handlePrevPage}
           onNext={handleNextPage}
