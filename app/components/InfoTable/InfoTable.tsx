@@ -103,12 +103,19 @@ export function InfoTable({
   };
 
   return (
-    <div className={clsx("min-h-[100px]: max-w-screen-lg mt-8", className)}>
+    <div
+      className={clsx(
+        "relative min-h-[100px]: max-w-screen-lg mt-8",
+        className
+      )}
+    >
       {isValidating && (
-        <div className="text-center text-green-400">Loading...</div>
+        <div className="absolute top-1 left-1/2 transform -translate-x-1/2 text-green-400">
+          Loading...
+        </div>
       )}
       {error && <div className="text-center text-red-500">Failed to load </div>}
-      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mb-2">
+      <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mt-10 mb-2">
         {hasSearchBox ? (
           <SearchBox buttonText="Go" onSearchCallback={setSearchTerm} />
         ) : (
