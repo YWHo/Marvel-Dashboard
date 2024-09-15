@@ -8,7 +8,7 @@ https://marvel-dashboard-ten.vercel.app/
  https://pnpm.io/installation.
 
 2. Open the terminal on your local computer and clone this project:
-```bash
+```console
 git clone https://github.com/YWHo/marvel-dashboard.git
 ```
 
@@ -22,14 +22,26 @@ MARVEL_ACCESS_PRIVATE_KEY=<your private API key>
 > Note: Please obtain your API key from https://developer.marvel.com/.
 
 5. Run the `pnpm install` command to retrieve the project dependencies.
-```bash
+```console
 pnpm install
 ```
 
 6. Start the development server on your local computer:
 
-```bash
+```console
 pnpm dev
 ```
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+8. To create a production build, please run the following commands:
+
+```console
+pnpm build
+```
+
+followed by
+
+```console
+pnpm start.
+```
