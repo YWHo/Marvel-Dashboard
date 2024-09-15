@@ -47,7 +47,7 @@ export function InfoTable({
   const [searchTerm, setSearchTerm] = useState("");
   const [sortDirection, setSortDirection] = useState<SortOrder>("ascending");
   const [offset, setOffset] = useState(0);
-  const limit = 20;
+  const limit = 10;
   let totalItems = 0;
 
   const orderingRequest = orderByType
@@ -119,7 +119,7 @@ export function InfoTable({
           onNext={handleNextPage}
         />
       </div>
-      <ul className="flex-grow max-h-[calc(100vh-180px)] min-h-[100px] w-[290px] sm:w-[600px] md:w-[800px] lg:w-[900px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
+      <ul className="flex-grow min-h-[100px] w-[290px] sm:w-[600px] md:w-[800px] lg:w-[900px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
         {dataType == RowDisplayType.WITH_IMAGE &&
           tableItems.map((item) => (
             <RowComponentWithImage
