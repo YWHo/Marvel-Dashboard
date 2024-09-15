@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { baseURL } from "@/app/lib/constants";
-import { fetchData, getCacheKey, getTargetUrl } from "@/app/lib/helpers";
+import { fetchData, getServerCacheKey, getTargetUrl } from "@/app/lib/helpers";
 
 export async function GET(
   req: NextRequest,
@@ -9,7 +9,7 @@ export async function GET(
   const { id } = params;
   const targetBaseUrl = `${baseURL}/v1/public/characters/${id}/stories`;
   const targetUrl = getTargetUrl(req.url, targetBaseUrl);
-  const cacheKey = getCacheKey(req.url, targetBaseUrl);
+  const cacheKey = getServerCacheKey(req.url, targetBaseUrl);
   const { data, error, status } = await fetchData(
     targetUrl,
     req.headers,

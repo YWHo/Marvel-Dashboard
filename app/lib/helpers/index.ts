@@ -1,7 +1,7 @@
 export {
   fetchData,
   generateMD5,
-  getCacheKey,
+  getServerCacheKey,
   getImageURLFromThumbnail,
   getTargetUrl,
   getTimestamp,

@@ -45,7 +45,7 @@ export function getImageURLFromThumbnail(thumbnail: ThumbnailProps) {
   return "";
 }
 
-export function getCacheKey(reqUrl: string, targetBaseUrl: string): string {
+export function getServerCacheKey(reqUrl: string, targetBaseUrl: string): string {
   const urlObject = new URL(targetBaseUrl);
 
   // Append incoming query parameters to the target URL
