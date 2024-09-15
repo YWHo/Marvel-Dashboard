@@ -86,13 +86,19 @@ export function InfoTable({
 
   const handlePrevPage = () => {
     if (offset > 0) {
-      setOffset(offset - limit);
+      const count = offset - limit;
+      if (count < 0) {
+        setOffset(0);
+      } else {
+        setOffset(count);
+      }
     }
   };
 
   const handleNextPage = () => {
-    if (offset < totalItems) {
-      setOffset(offset + limit);
+    const count = offset + limit;
+    if (count < totalItems) {
+      setOffset(count);
     }
   };
 
