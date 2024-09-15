@@ -7,7 +7,7 @@ import {
   InfoList,
   MarvelDataType,
   OnClickCallbackFn,
-  SortOrder
+  SortOrder,
 } from "@/app/lib/type-definitions";
 import { RowComponentWithImage } from "./RowComponentWithImage";
 import { RowComponentSimple } from "./RowComponentSimple";
@@ -27,7 +27,8 @@ type Props = {
   className?: string;
   onClickCallback?: OnClickCallbackFn;
   orderByType?: string;
-  showSearchBox?: boolean;
+  hasSearchBox?: boolean;
+  hasSortButtons?: boolean;
   searchByType?: string;
 };
 
@@ -39,7 +40,8 @@ export function InfoTable({
   onClickCallback,
   orderByType,
   searchByType,
-  showSearchBox,
+  hasSearchBox,
+  hasSortButtons,
 }: Props) {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortDirection, setSortDirection] = useState<SortOrder>("ascending");
@@ -73,25 +75,28 @@ export function InfoTable({
     }
   }
 
+  if (!isLoading && (!list || list.length == 0)) {
+    return (
+      <div className="w-100 text-center">(No data)</div>
+    )
+  }
+
   return (
-    <div className={clsx("min-[100px]: max-w-screen-lg mt-8", className)}>
+    <div className={clsx("min-h-[100px]: max-w-screen-lg mt-8", className)}>
       {isLoading && (
         <div className="text-center text-green-400">Loading...</div>
       )}
       {error && <div className="text-center text-red-500">Failed to load </div>}
       <div className="flex flex-col gap-y-1 md:flex-row md:gap-x-4 mb-2">
-        {showSearchBox ? (
-          <SearchBox
-            buttonText="Go"
-            onSearchCallback={setSearchTerm}
-          />
-        ) : <div>&nbsp;</div>}
-        <SortButtons onSortCallback={setSortDirection} />
+        {hasSearchBox ? (
+          <SearchBox buttonText="Go" onSearchCallback={setSearchTerm} />
+        ) : ""
+        }
+        {hasSortButtons? (
+          <SortButtons onSortCallback={setSortDirection} />
+        ) : ""}
       </div>
       <ul className="flex-grow max-h-[calc(100vh-180px)] min-h-[100px] w-[290px] sm:w-[600px] md:w-[800px] lg:w-[900px] flex flex-col list-none p-0 overflow-y-auto gap-y-2">
-        {!isLoading && (!list || list.length == 0) && (
-          <li className="text-center">(No data)</li>
-        )}
         {dataType == MarvelDataType.WITH_IMAGE &&
           list.map((item) => (
             <RowComponentWithImage

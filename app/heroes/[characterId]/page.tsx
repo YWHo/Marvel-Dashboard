@@ -27,6 +27,7 @@ export default function HeroDetail({ params }: Props) {
           baseUrl={`/api/characters/${characterId}/comics`}
           dataType={MarvelDataType.WITH_IMAGE}
           orderByType="title"
+          hasSortButtons={true}
         />
         <h3
           id="event_group"
@@ -38,6 +39,7 @@ export default function HeroDetail({ params }: Props) {
           baseUrl={`/api/characters/${characterId}/events`}
           dataType={MarvelDataType.WITH_IMAGE}
           orderByType="name"
+          hasSortButtons={true}
         />
         <h3
           id="series_group"
@@ -49,6 +51,7 @@ export default function HeroDetail({ params }: Props) {
           baseUrl={`/api/characters/${characterId}/series`}
           dataType={MarvelDataType.WITH_IMAGE}
           orderByType="title"
+          hasSortButtons={true}
         />
         <h3
           id="story_group"

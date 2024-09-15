@@ -26,7 +26,8 @@ export function HeroesInfoTableWrapper() {
         onClickCallback={(id) => {
           router.push(`/heroes/${id}`);
         }}
-        showSearchBox={true}
+        hasSearchBox={true}
+        hasSortButtons={true}
         searchByType="nameStartsWith"
       />
   );
