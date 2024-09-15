@@ -1,16 +1,17 @@
 import { createHash } from "crypto";
 import parseHtml from "html-react-parser";
-import { InfoList } from "@/app/lib/type-definitions";
+import { InfoList, MarvelResponseDataResultType, MarvelResponseDataResultThumbnailType } from "@/app/lib/type-definitions";
 import { getCache, setCache } from "../cacheHelper";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function mapToInfoList(items: any[]): InfoList {
-  return items.map((item) => {
+export function mapToInfoList(items: MarvelResponseDataResultType[]): InfoList {
+  if (!items) return [];
+  return Array.from(items).map((item) => {
     let description = "";
     if (typeof item.description == "string" && item.description.length > 0) {
       description = item.description;
     } else if (
       Array.isArray(item.textObjects) &&
+      item.textObjects?.length > 0 &&
       typeof item.textObjects[0] == "object" &&
       typeof item.textObjects[0].text == "string" &&
       item.textObjects[0].text.length > 0
@@ -28,10 +29,7 @@ export function mapToInfoList(items: any[]): InfoList {
   });
 }
 
-type ThumbnailProps = {
-  path?: string;
-  extension?: string;
-} | null;
+type ThumbnailProps = MarvelResponseDataResultThumbnailType | null | undefined;
 
 export function getImageURLFromThumbnail(thumbnail: ThumbnailProps) {
   if (thumbnail && typeof thumbnail == "object") {
